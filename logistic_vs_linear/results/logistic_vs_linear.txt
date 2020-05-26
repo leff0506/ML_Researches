@@ -1,0 +1,37 @@
+D:\ML\ML\venv\Scripts\python.exe D:/ML/ML/homework/regr_vs_log.py
+single_grade_csv
+linear:
+[[19  3]
+ [ 2 16]]
+Accuracy: 0.875
+Recall: 0.8888888888888888
+Precison: 0.8421052631578947
+Logistic Loss: 0.28504729442176674
+
+Confusion matrics for logistic:
+[[20  2]
+ [ 2 16]]
+Accuracy: 0.9
+Recall: 0.8888888888888888
+Precison: 0.8888888888888888
+Logistic Loss: 0.25409792360442773
+------------------------------------------
+
+linear_vs_logistic_csv
+linear:
+[[10  0]
+ [ 5  5]]
+Accuracy: 0.75
+Recall: 0.5
+Precison: 1.0
+Logistic Loss: 0.6239327922280532
+
+Confusion matrics for logistic:
+[[10  0]
+ [ 0 10]]
+Accuracy: 1.0
+Recall: 1.0
+Precison: 1.0
+Logistic Loss: 0.02056381834476357
+------------------------------------------
+
