@@ -35,3 +35,6 @@ Precison: 1.0
 Logistic Loss: 0.02056381834476357
 ------------------------------------------
 
+
+Logistic regression is definitely better for classification (it can be clearly seen by mistake and accuracy)
+
