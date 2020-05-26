@@ -1,0 +1,17 @@
+Full MSE: 2.883467306064379
+
+TV remains
+Pearson correletion coeficient between TV and sales is 0.7822244248616066
+Mse: 12.847493583700263
+
+radio remains
+Pearson correletion coeficient between radio and sales is 0.5762225745710553
+Mse: 17.05465389321978
+
+newspaper remains
+Pearson correletion coeficient between newspaper and sales is 0.22829902637616534
+Mse: 28.10854617022856
+
+
+The higher the correlation between advertising and sales, the smaller the model error (well, that’s logical) and vice versa the less the correlation the greater the error.
+None of the columns on one column can be as accurate as the original model built on all the data.
