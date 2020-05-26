@@ -1,0 +1,60 @@
+db scan
+       average_price  customer_id  overall_rating  return_rate
+class
+-1        794.579711           15        2.466667     0.542309 
+ 0        821.541486           31        5.000000     0.021860
+ 1        481.597503            7        4.000000     0.027796
+ 2        605.265476            7        3.000000     0.254365
+
+db scan after pca (actually got clusters that divide data into good and bad grades)
+       average_price  customer_id  overall_rating  return_rate
+class
+0         698.849129           20           2.500     0.495759
+1         775.438500           40           4.775     0.021806
+
+agglomerate
+       average_price  customer_id  overall_rating  return_rate
+class
+0         926.679248           26        4.923077     0.019012
+1         664.593994           14        2.500000     0.327275
+2         494.562827           14        4.500000     0.026993
+3         778.777778            6        2.500000     0.888889
+
+agglomerate after pca
+       average_price  customer_id  overall_rating  return_rate
+class
+0         595.516086           24        4.708333     0.022138
+1         749.240326           13        2.230769     0.625741
+2        1045.322122           16        4.875000     0.021307
+3         605.265476            7        3.000000     0.254365
+
+k_means with 5 classes
+       average_price  customer_id  overall_rating  return_rate
+class
+0         481.597503            7        4.000000     0.027796
+1         780.470370            9        2.333333     0.781481
+2        1045.322122           16        4.875000     0.021307
+3         632.068113           11        2.636364     0.261987
+4         642.423738           17        5.000000     0.019808
+
+k_means with 5 after pca
+       average_price  customer_id  overall_rating  return_rate
+class
+0         778.143687           12           2.250     0.661219
+1        1045.322122           16           4.875     0.021307
+2         579.907292            8           2.875     0.247569
+3         668.350222           16           5.000     0.017921
+4         449.847815            8           4.125     0.030571
+
+In my opinion, the most effective was K-means where such classes were found.
+Average spending + perfect rating + almost no returns
+Spends a lot + very good rating + almost no returns
+Spends little + not very good grade + almost no returns
+and two classes of dissatisfied.
+of these classes
+those people who spend more -> return more and give a worse rating
+
+
+
+
+
