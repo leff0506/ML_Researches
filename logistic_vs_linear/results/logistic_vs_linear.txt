@@ -1,4 +1,3 @@
-D:\ML\ML\venv\Scripts\python.exe D:/ML/ML/homework/regr_vs_log.py
 single_grade_csv
 linear:
 [[19  3]
