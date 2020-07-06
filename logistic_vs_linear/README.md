@@ -13,7 +13,7 @@ Confusion matrix for logistic:<br/>
 Accuracy: 0.9<br/>
 Recall: 0.8888888888888888<br/>
 Precison: 0.8888888888888888<br/>
-Logistic Loss: <b>0.25409792360442773<b/><br/>
+Logistic Loss: <b>0.25409792360442773</b><br/>
 
 linear_vs_logistic_csv<br/>
 linear:<br/>
