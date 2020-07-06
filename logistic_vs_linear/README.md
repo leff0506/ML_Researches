@@ -14,7 +14,6 @@ Accuracy: 0.9<br/>
 Recall: 0.8888888888888888<br/>
 Precison: 0.8888888888888888<br/>
 Logistic Loss: 0.25409792360442773<br/>
-------------------------------------------
 
 linear_vs_logistic_csv<br/>
 linear:<br/>
@@ -32,7 +31,6 @@ Accuracy: 1.0<br/>
 Recall: 1.0<br/>
 Precison: 1.0<br/>
 Logistic Loss: 0.02056381834476357<br/>
-------------------------------------------
 
 
 Logistic regression is definitely better for classification (it can be clearly seen by mistake and accuracy)<br/>
