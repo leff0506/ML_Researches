@@ -1,38 +1,38 @@
-single_grade_csv
-linear:
-[[19  3]
- [ 2 16]]
-Accuracy: 0.875
-Recall: 0.8888888888888888
-Precison: 0.8421052631578947
-Logistic Loss: 0.28504729442176674
+single_grade_csv<br/>
+linear:<br/>
+[[19  3]<br/>
+ [ 2 16]]<br/>
+Accuracy: 0.875<br/>
+Recall: 0.8888888888888888<br/>
+Precison: 0.8421052631578947<br/>
+Logistic Loss: 0.28504729442176674<br/>
 
-Confusion matrics for logistic:
-[[20  2]
- [ 2 16]]
-Accuracy: 0.9
-Recall: 0.8888888888888888
-Precison: 0.8888888888888888
-Logistic Loss: 0.25409792360442773
+Confusion matrics for logistic:<br/>
+[[20  2]<br/>
+ [ 2 16]]<br/>
+Accuracy: 0.9<br/>
+Recall: 0.8888888888888888<br/>
+Precison: 0.8888888888888888<br/>
+Logistic Loss: 0.25409792360442773<br/>
 ------------------------------------------
 
-linear_vs_logistic_csv
-linear:
-[[10  0]
- [ 5  5]]
-Accuracy: 0.75
-Recall: 0.5
-Precison: 1.0
-Logistic Loss: 0.6239327922280532
+linear_vs_logistic_csv<br/>
+linear:<br/>
+[[10  0]<br/>
+ [ 5  5]]<br/>
+Accuracy: 0.75<br/>
+Recall: 0.5<br/>
+Precison: 1.0<br/>
+Logistic Loss: 0.6239327922280532<br/>
 
-Confusion matrics for logistic:
-[[10  0]
- [ 0 10]]
-Accuracy: 1.0
-Recall: 1.0
-Precison: 1.0
-Logistic Loss: 0.02056381834476357
+Confusion matrics for logistic:<br/>
+[[10  0]<br/>
+ [ 0 10]]<br/>
+Accuracy: 1.0<br/>
+Recall: 1.0<br/>
+Precison: 1.0<br/>
+Logistic Loss: 0.02056381834476357<br/>
 ------------------------------------------
 
 
-Logistic regression is definitely better for classification (it can be clearly seen by mistake and accuracy)
+Logistic regression is definitely better for classification (it can be clearly seen by mistake and accuracy)<br/>
